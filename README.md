@@ -48,21 +48,21 @@ The analysis set to answer the following questions;
 *	Is there a relationship between retweet count, favourites count(likes0 and dog ratings? 
 The data was collected from three different sources such as the Enhanced Twitter Archive, Image Predictions File, and Additional Data via the Twitter API which was collected, cleaned and stored into a single table known as master_twitter archive, which later was used for further analysis. 
 
-Question 1: what dog breed has the highest number of ratings? 
+### Question 1: what dog breed has the highest number of ratings? 
 The most rated dog breed was determined by getting the count of individual dog breed that was rated by users  
  ![image](https://user-images.githubusercontent.com/90378885/211569512-76625818-84d6-478c-ad53-9258db3e02b9.png)
 
    
 It can be seen from the above graph that golden-retriever is the most rated dogs among the users follow by Pembroke and Labrador-retriever 
 
-Question 2: what dog breed is the most rated? 
+### Question 2: what dog breed is the most rated? 
 The dog breed with the highest rating was determined using the mean ratings of individual dog breed 
 ![image](https://user-images.githubusercontent.com/90378885/211575875-3dcd0e90-38a1-49d4-a02a-b4af71ecde4f.png)
 
  
 It can be seen from the above graph that Eskimo_dog is the dog breed with the highest rating followed by Samoyed and chow dog breeds
 
-Question 3: Is there a relationship between retweet count, favourites count(likes0 and dog ratings? 
+### Question 3: Is there a relationship between retweet count, favourites count(likes0 and dog ratings? 
 This is determined by finding the correlation between these variables to determine if there is a relationship between them 
 ![image](https://user-images.githubusercontent.com/90378885/211571449-2164377c-aa03-4757-893e-57e6d98cc78d.png)
   
