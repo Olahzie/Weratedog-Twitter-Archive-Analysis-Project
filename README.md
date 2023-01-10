@@ -4,7 +4,8 @@ WeRateDogs is an online Twitter account which is devoted to humorously reviewing
 The main goal of the analysis is to wrangle WeRateDogs Twitter data to create interesting and trustworthy analyses and visualizations.
 
 ## Data Wrangling Process
-The data was collected from three different sources as stated below; 
+The data was collected from three different sources as stated below;
+
 ❖	Enhanced Twitter Archive contains WeRateDogs basic tweet data for all 5000+ of their tweets, but not everything. The data is stored in a CSV file, which contains information such as each tweet text, dog rating, dog stage, dog name etc. 
  
 ❖	Image Predictions File contains information about every image in the 
@@ -19,7 +20,7 @@ The enhanced Twitter was stored in CSV file which was load in into a python data
 
 The image file was downloaded programmatically from the Udacity server using the provided URL with the request library which was later written into a TSV(tab-seperated-values) file known as image prediction and loaded into a python data frame object using the panda’s library. The dataset contains 2074 rows of predicted dogs’ images. 
 Additional data was mined from Twitter API using the tokens and keys from the Twitter developer account as the authentications. Each tweet information was extracted using the tweet id which was later stored in a text file. The text file was read into a python object using the panda’s package. Data Cleaning Process  
-some data qualities and tidiness issues were discovered from the data and these are; 
+some data qualities and tidiness issues were discovered from the data and these are;
 
 Quality issue twitter_arch Table 
 *	presence of null values in most of the columns 
@@ -55,7 +56,8 @@ It can be seen from the above graph that golden-retriever is the most rated dogs
 
 Question 2: what dog breed is the most rated? 
 The dog breed with the highest rating was determined using the mean ratings of individual dog breed 
- ![image](https://user-images.githubusercontent.com/90378885/211571094-9f6b5140-2da8-4d62-813c-76dd9a76dc7f.png)
+![image](https://user-images.githubusercontent.com/90378885/211575875-3dcd0e90-38a1-49d4-a02a-b4af71ecde4f.png)
+
  
 It can be seen from the above graph that Eskimo_dog is the dog breed with the highest rating followed by Samoyed and chow dog breeds
 
