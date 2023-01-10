@@ -30,7 +30,7 @@ Quality issue twitter_arch Table
 *	timestamp column is object data type, not DateTime 
 *	inconsistent dog name
 
-	Image table 
+Image table 
 *	inappropriate feature naming 
 *	presence of non-dog observations 
 
